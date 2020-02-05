@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Didact+Gothic|Open+Sans|Raleway&display=swap');
+
+body {
+  font-family: 'Open Sans';
+  background-color: #F7F9FC ;
+  color: rgb(10,10,10)
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: 'Raleway';
+  color: rgb(10,10,10);
+  font-size: 35px;
+  margin-bottom:10px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  color: rgb(10,10,10);
+  margin-bottom: 40px;
+
+}
+
+.container{
+  display: block;
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white{
+  background-color:#FFFFFA;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+  padding: 30px;
+  margin: 5px 20px 20px 10px;
+ }
+
+#intro{
+  bottom-margin: 20px;
+}
+
+#socialmedia{
+  padding: 10px 20px 20px 10px;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.img-circle{
+  border-radius: 50%;
+  margin:10px;
+}
+
+.btn {
+  color: #F7F9FC;
+  text-decoration:none;
+  font-size: 22px;
+  padding: 10px 20px;
+  background-color: #74B3CE;
+  border-radius:5px;
+  margin: 10px 20px 20px 10px;
+
+}
+
+.btn:hover {
+  color: #F7F9FC;
+  background-color: #114B5F;
+}
+
+#follow {
+  font-family: 'Raleway';
+  color: rgb(10,10,10) ;
+}
+
+.list-inline > li {
+  display:inline-block;
+  padding: 0px 20px;
+}
+.list-inline {
+  list-style:none;
+  padding-left:0px;
+}
+
+.list-inline > li > a {
+  color: #A1B5D8;
+  font-size:50px;
+}
+.list-inline > li > a:hover {
+  color: #114B5F;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+
+}
+
