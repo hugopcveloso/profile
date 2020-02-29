@@ -16,13 +16,17 @@ h1 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 15px;
+  font-family: 'Raleway';
 }
 
 p {
   color: rgb(10,10,10);
   margin-bottom: 40px;
 
+}
+li {
+  list-style: none;
 }
 
 .container{
@@ -94,6 +98,14 @@ p {
   color: #114B5F;
 }
 
+.interests-img{
+  width:100%;
+}
+
+.list-interests li {
+  margin:5px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
@@ -111,6 +123,7 @@ p {
   .container {
     width: 400px;
   }
+
 
 }
 
