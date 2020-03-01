@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Open Sans';
-  background-color: #F7F9FC ;
+  background-color: #81B29A;
   color: rgb(10,10,10)
   text-align: center;
 }
@@ -10,7 +10,7 @@ body {
 h1 {
   font-weight: bold;
   font-family: 'Raleway';
-  color: rgb(10,10,10);
+  color: #3D405B;
   font-size: 35px;
   margin-bottom:10px;
 }
@@ -21,7 +21,7 @@ h3 {
 }
 
 p {
-  color: rgb(10,10,10);
+  color: #3D405B;
   margin-bottom: 40px;
 
 }
@@ -36,7 +36,7 @@ li {
 }
 
 .card-white{
-  background-color:#FFFFFA;
+  background-color:#F4F1DE;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
   border-radius: 4px;
   padding: 30px;
@@ -61,7 +61,7 @@ li {
 }
 
 .btn {
-  color: #F7F9FC;
+  color: #F4F1DE;
   text-decoration:none;
   font-size: 22px;
   padding: 10px 20px;
@@ -72,13 +72,13 @@ li {
 }
 
 .btn:hover {
-  color: #F7F9FC;
-  background-color: #114B5F;
+  color: #F4F1DE;
+  background-color: #E07A5F;
 }
 
 #follow {
   font-family: 'Raleway';
-  color: rgb(10,10,10) ;
+  color: #3D405B ;
 }
 
 .list-inline > li {
@@ -91,7 +91,7 @@ li {
 }
 
 .list-inline > li > a {
-  color: #A1B5D8;
+  color: #E07A5F;
   font-size:50px;
 }
 .list-inline > li > a:hover {
@@ -102,9 +102,16 @@ li {
   width:100%;
 }
 
+
+.interests-img:hover {
+  width:102%;
+
+}
+
 .list-interests li {
   margin:5px;
 }
+
 
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
